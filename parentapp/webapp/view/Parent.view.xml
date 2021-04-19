@@ -1,0 +1,18 @@
+<mvc:View
+    controllerName="com.infy.sample.parentapp.controller.Parent"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="parent" showHeader="false" showFooter="false" showNavButton="false" showSubHeader="false" enableScrolling="false">
+					<content>
+					<core:ComponentContainer id="compReuse" propagateModel="true"/>
+				</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>

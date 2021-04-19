@@ -1,0 +1,12 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" class="sapUiSizeCompact">
+	<Dialog title="Collab" horizontalScrolling="true" stretch="false" draggable="true" contentHeight="95%" contentWidth="85%" showHeader="false"
+	  class="sapUiNoContentPadding">
+		<content>
+			<Page id="collabPage" showHeader="false" showFooter="false" showNavButton="false" showSubHeader="false" enableScrolling="false">
+				<content>
+					<core:ComponentContainer id="compCollab" propagateModel="true"/>
+				</content>
+			</Page>
+		</content>
+	</Dialog>
+</core:FragmentDefinition>
